@@ -1,0 +1,267 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Hi there",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello! I'm FocusFriend. How can I assist you today?",
+        "Hi! I'm FocusFriend. What brings you here?",
+        "Hey there! I'm FocusFriend. What can I help you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "See you later! Feel free to reach out anytime.",
+        "Bye! Have a great day."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help.",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "I'm experiencing symptoms",
+        "My symptoms are worsening",
+        "I need help with my symptoms"
+      ],
+      "responses": [
+        "Individuals with ADHD commonly experience symptoms such as difficulty sustaining attention, impulsivity, and hyperactivity, which can significantly impact their daily lives. Strategies to address these symptoms include implementing organizational systems to manage tasks and deadlines effectively, breaking tasks into smaller, manageable steps, using tools like timers or reminders to stay focused and on track, creating structured routines to promote consistency and predictability, and seeking support from therapists or coaches who specialize in ADHD to develop coping strategies and skills. Additionally, medication prescribed by a healthcare professional may help alleviate symptoms for some individuals. It's essential to approach ADHD management with a multifaceted approach tailored to the individual's specific needs and preferences.I'm here to help. Can you tell me more about your symptoms?",
+        "Individuals with ADHD often experience symptoms such as difficulty sustaining attention, impulsivity, hyperactivity, disorganization, forgetfulness, and difficulty following through on tasks. To address these challenges, various strategies can be employed. Establishing routines and using organizational tools like planners and reminders can help manage forgetfulness and disorganization. Breaking tasks into smaller, manageable steps and setting clear, achievable goals can assist with task completion. Techniques like mindfulness and deep breathing can aid in reducing impulsivity and increasing focus. Additionally, seeking support from healthcare professionals, therapists, and support groups can provide valuable guidance and coping strategies. It's essential to create a supportive environment with clear expectations and positive reinforcement, fostering understanding and patience for individuals managing ADHD symptoms. Let's work together to address your symptoms. What specifically are you experiencing?"
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "I'm having trouble with my medication",
+        "I keep forgetting to take my medication",
+        "I need assistance with my medication"
+      ],
+      "responses": [
+        "Managing medication and medication information is crucial for individuals with ADHD to ensure effective treatment and symptom management. It involves several key steps, including obtaining accurate information about prescribed medications, understanding dosages and schedules, and adhering to treatment plans. Keeping a comprehensive record of medications, including names, dosages, and instructions, can help prevent errors and ensure consistency in medication management. Utilizing pill organizers or smartphone apps with medication reminders can assist in adhering to prescribed schedules. Regular communication with healthcare providers, including psychiatrists or primary care physicians, is essential to monitor medication effectiveness, address any side effects, and make necessary adjustments to treatment plans. Additionally, staying informed about potential interactions with other medications or substances and consulting healthcare professionals before making any changes is essential for safe medication management. By actively engaging in medication management and staying informed, individuals with ADHD can optimize the benefits of their treatment and improve their overall well-being.Managing medication can be challenging. Let's find a solution together. How can I assist you?",
+        "Let's work on a strategy to help you remember your medication. What's been difficult for you?",
+        "Addressing the challenges faced by individuals with ADHD related to medication involves several key strategies. Firstly, establishing a consistent routine for medication administration is crucial to ensure doses are taken at the prescribed times each day. This can be facilitated by using pill organizers, setting alarms or reminders, or integrating medication-taking into existing daily routines. Additionally, maintaining open communication with healthcare providers is essential for addressing any concerns or side effects related to medication. Regular check-ins with a healthcare professional can help monitor medication effectiveness and make any necessary adjustments to the treatment plan. Educating oneself about the medication being taken, including its purpose, dosage, potential side effects, and interactions with other substances, empowers individuals to take an active role in their treatment and advocate for their needs. Finally, seeking support from family members, friends, or support groups can provide encouragement and assistance in managing medication-related challenges. By implementing these strategies and fostering a collaborative approach to medication management, individuals with ADHD can effectively navigate the complexities of treatment and optimize their overall well-being.",
+        "For individuals with ADHD, managing medication-related challenges can be crucial for effective treatment. One common issue is forgetfulness or inconsistency in taking medication. Setting up reminders through smartphone apps, alarm clocks, or pairing medication with daily routines like meals can help establish a consistent routine. Organizational tools such as pill organizers or medication tracking journals can assist in keeping track of doses and refill schedules. Some individuals may struggle with side effects or finding the right medication dosage. Open communication with healthcare providers is key to addressing these concerns, as they can adjust dosages or explore alternative medications. Additionally, educating oneself about medication options, potential side effects, and how they affect individual symptoms can empower individuals to make informed decisions about their treatment. Finally, establishing a supportive network of family, friends, or support groups can provide encouragement and accountability throughout the medication management process."
+      ]
+    },
+    {
+      "tag": "coping_strategies",
+      "patterns": [
+        "I need coping strategies",
+        "How can I cope with ADHD symptoms",
+        "What coping mechanisms can I use?"
+      ],
+      "responses": [
+        "Coping with ADHD involves implementing various strategies to manage symptoms and improve daily functioning. One effective strategy is to establish a consistent daily routine and structure. Setting regular times for waking up, meals, work/study sessions, and bedtime can provide predictability and reduce forgetfulness. Additionally, breaking down tasks into smaller, more manageable steps can make them less overwhelming and easier to approach. This approach helps individuals with ADHD stay focused and avoid feeling stuck or discouraged.There are various coping strategies we can explore. Let's discuss what might work best for you.",
+        "Coping with ADHD is different for everyone.Visual aids such as calendars, to-do lists, and sticky notes can serve as helpful reminders and organizational tools. Using alarms or smartphone reminder apps can also assist with remembering important events or medication doses. Creating a conducive environment for focus by minimizing distractions is another important coping strategy. This may involve finding a quiet workspace, using noise-canceling headphones, or blocking distracting websites or apps while working. Let's find strategies that suit your needs.",
+        "Coping with ADHD involves implementing various strategies to manage symptoms and improve daily functioning.Visual aids such as calendars, to-do lists, and sticky notes can serve as helpful reminders and organizational tools. Using alarms or smartphone reminder apps can also assist with remembering important events or medication doses. Creating a conducive environment for focus by minimizing distractions is another important coping strategy. This may involve finding a quiet workspace, using noise-canceling headphones, or blocking distracting websites or apps while working.",
+        "Here are some coping strategies for managing ADHD:\n1. Break tasks into smaller steps\n2. Use visual aids like calendars or to-do lists\n3. Practice mindfulness and deep breathing\n4. Establish routines and stick to them\n5. Get regular exercise and enough sleep"
+      ],
+      "additional_info": "It's important to remember that coping strategies may vary for each individual. What works for one person may not work for another. It's also okay to seek professional help if you're struggling to cope.",
+      "myths_facts": [
+        {
+          "myth": "People with ADHD are lazy or unmotivated",
+          "fact": "ADHD is a neurodevelopmental disorder that affects the brain's ability to regulate attention and behavior. It is not a character flaw, and individuals with ADHD often face challenges beyond their control."
+        },
+        {
+          "myth": "ADHD only affects children",
+          "fact": "While ADHD is commonly diagnosed in childhood, it can persist into adulthood. Many adults with ADHD go undiagnosed or misdiagnosed, leading to difficulties in various aspects of life."
+        },
+        {
+          "myth": "Medication is the only treatment for ADHD",
+          "fact": "While medication can be an effective treatment for managing ADHD symptoms, it is not the only option. Behavioral therapies, lifestyle changes, and support strategies can also be beneficial."
+        },
+        {
+          "myth": "People with ADHD can't succeed in school or work",
+          "fact": "With proper support, individuals with ADHD can excel in academics, careers, and personal relationships. Many successful people have ADHD and have learned to leverage their strengths while managing their challenges."
+        },
+        {
+          "myth": "ADHD isn't a real disorder; it's just an excuse for bad behavior",
+          "fact": "ADHD is a recognized medical condition supported by scientific research. It has a significant impact on daily functioning and can lead to difficulties in attention, hyperactivity, and impulsivity."
+        }
+      ]
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "What is ADHD?",
+        "Can you tell me about ADHD?",
+        "I want to learn more about ADHD"
+      ],
+      "responses": [
+        "ADHD stands for Attention-Deficit/Hyperactivity Disorder. It's a neurodevelopmental disorder that affects attention, behavior, and impulse control.",
+        "ADHD, or Attention Deficit Hyperactivity Disorder, is a neurodevelopmental condition characterized by persistent patterns of inattention, hyperactivity, and/or impulsivity that interfere with daily functioning. There are three main subtypes: predominantly inattentive, predominantly hyperactive-impulsive, and combined presentation. Individuals with ADHD may struggle with sustaining attention, organizing tasks, controlling impulses, and regulating activity levels. Symptoms often emerge in childhood and can persist into adulthood, impacting various aspects of life. While it's normal for individuals to occasionally experience these behaviors, those with ADHD experience them to a degree that significantly affects their lives. Diagnosis typically involves a comprehensive evaluation by a qualified healthcare professional. Treatment options may include medication, behavioral therapy, educational support, and lifestyle modifications. With proper diagnosis and management, individuals with ADHD can learn to cope with their symptoms effectively and lead fulfilling lives.",
+        "ADHD is a condition characterized by difficulty focusing, hyperactivity, and impulsivity. It can impact daily functioning and relationships.",
+        "Here are some key facts about ADHD:\n- ADHD is one of the most common neurodevelopmental disorders in children, but it can also persist into adulthood.\n- Symptoms of ADHD may include inattention, hyperactivity, and impulsivity.\n- ADHD can affect various aspects of life, including school, work, and relationships.",
+        "ADHD symptoms often emerge in childhood and can persist into adulthood. While it's normal for individuals to occasionally experience inattention, hyperactivity, or impulsivity, those with ADHD experience these symptoms to a degree that significantly impacts their daily functioning and quality of life. The exact cause of ADHD is not fully understood, but it's thought to involve a combination of genetic, environmental, and neurological factors.Diagnosis of ADHD typically involves a comprehensive evaluation by a qualified healthcare professional, such as a psychiatrist or psychologist. Treatment options for ADHD may include medication, behavioral therapy, educational support, and lifestyle modifications. With proper diagnosis and management, individuals with ADHD can learn to cope with their symptoms effectively and lead fulfilling lives."
+      ],
+      "additional_info": "It's important to consult with a healthcare professional if you suspect you or someone you know may have ADHD. A proper diagnosis and treatment plan can make a significant difference in managing symptoms and improving quality of life.",
+      "myths_facts": [
+        {
+          "myth": "ADHD is caused by bad parenting",
+          "fact": "ADHD is a complex disorder with genetic, environmental, and neurological factors contributing to its development. Parenting style alone does not cause ADHD."
+        },
+        {
+          "myth": "Children will outgrow ADHD",
+          "fact": "While some children may experience a reduction in symptoms as they mature, many individuals with ADHD continue to experience symptoms into adulthood. Early intervention and appropriate treatment can help manage symptoms effectively."
+        },
+        {
+          "myth": "ADHD is overdiagnosed",
+          "fact": "ADHD diagnosis requires careful evaluation by qualified healthcare professionals based on specific criteria outlined in diagnostic manuals. While there may be cases of misdiagnosis, ADHD is a legitimate disorder that can have a significant impact on daily functioning."
+        },
+        {
+          "myth": "ADHD is just a lack of discipline",
+          "fact": "ADHD is a neurobiological condition characterized by differences in brain structure and function. It is not simply a matter of discipline or willpower. Individuals with ADHD may require support and accommodations to manage their symptoms effectively."
+        },
+        {
+          "myth": "Medication for ADHD is dangerous and addictive",
+          "fact": "Medication is a commonly prescribed treatment for ADHD and can be safe and effective when used as directed by a healthcare professional. Like any medication, stimulant medications used to treat ADHD can have side effects, but they are generally well-tolerated by most individuals."
+        }
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "I need support",
+        "Can you support me?",
+        "I could use some assistance"
+      ],
+      "responses": [
+        "Support for ADHD encompasses a range of strategies and resources aimed at helping individuals manage their symptoms effectively. One crucial form of support comes from healthcare professionals, such as psychiatrists, psychologists, or pediatricians, who can provide accurate diagnosis, treatment options, and ongoing management. Medication, such as stimulants or non-stimulants, may be prescribed to help regulate attention and impulsivity. Behavioral therapy, including cognitive-behavioral therapy (CBT) or behavior modification techniques, can assist individuals in developing coping strategies, improving organizational skills, and managing impulsivity.In addition to professional support, educational accommodations play a significant role in supporting individuals with ADHD. School accommodations, such as extended time on tests, preferential seating, or access to assistive technology, can help students succeed academically. Individualized education plans (IEPs) or Section 504 plans can outline specific accommodations tailored to the student's needs and ensure they receive appropriate support and resources in the classroom.You're not alone. I'm here to provide support and guidance. What do you need help with?",
+        "Support for ADHD encompasses a multifaceted approach aimed at addressing the diverse needs of individuals affected by the condition. Firstly, therapy and counseling provide essential guidance and coping strategies for managing symptoms and associated challenges. Cognitive-behavioral therapy (CBT) can help individuals develop practical skills to improve focus, organization, and time management, while also addressing emotional difficulties that may arise.Secondly, medication management plays a crucial role in many ADHD treatment plans. Prescription medications, such as stimulants or non-stimulants, can help regulate brain chemistry and alleviate symptoms like inattention and impulsivity. Healthcare professionals carefully monitor medication usage, adjusting dosages and types as needed to optimize effectiveness and minimize side effects.In educational settings, tailored support and accommodations are often necessary to facilitate learning and academic success for students with ADHD. Individualized education plans (IEPs) or 504 plans can outline specific accommodations, such as extended time on tests, preferential seating, or access to assistive technology, to address the unique needs of each student.I'm here to support you. Let's talk about what you're going through.",
+        "Parental and family support play a significant role in managing ADHD symptoms and fostering overall well-being. Parents can benefit from education and support groups to learn effective parenting strategies, establish routines, and advocate for their child's needs. Family therapy may also help improve communication and reduce conflict within the household.Outside the home and school environment, support groups and communities offer valuable peer support, encouragement, and practical advice for individuals with ADHD. Connecting with others who share similar experiences can provide validation, understanding, and a sense of belonging, which are essential for mental and emotional well-being.Ultimately, comprehensive support for ADHD involves collaboration between individuals, families, educators, healthcare professionals, and community resources. By combining various forms of support, individuals with ADHD can access the resources and strategies they need to thrive and reach their full potential.Seeking support is an important step in managing ADHD. How can I assist you today?"
+      ],
+      "additional_info": "Support can come in many forms, including therapy, support groups, and assistance from family and friends. Don't hesitate to reach out for help when you need it.",
+      "myths_facts": [
+        {
+          "myth": "ADHD is just a childhood disorder",
+          "fact": "While ADHD is often diagnosed in childhood, it can persist into adulthood and affect individuals throughout their lives. Many adults with ADHD go undiagnosed or untreated, leading to difficulties in various aspects of life."
+        },
+        {
+          "myth": "People with ADHD can't succeed in school or work",
+          "fact": "With proper support and accommodations, individuals with ADHD can excel in academics, careers, and personal relationships. Many successful people have ADHD and have learned to leverage their strengths while managing their challenges."
+        },
+        {
+          "myth": "ADHD is a made-up disorder",
+          "fact": "ADHD is a recognized medical condition supported by scientific research. It has a significant impact on daily functioning and can lead to difficulties in attention, hyperactivity, and impulsivity."
+        }
+      ]
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "What is ADHD?",
+        "Can you tell me about ADHD?",
+        "I want to learn more about ADHD"
+      ],
+      "responses": [
+        "ADHD, or Attention Deficit Hyperactivity Disorder, is a neurodevelopmental condition characterized by persistent patterns of inattention and/or hyperactivity-impulsivity that can interfere with daily functioning. There are three main subtypes: predominantly inattentive, predominantly hyperactive-impulsive, and combined presentation. Symptoms typically begin in childhood and may persist into adulthood. Those with ADHD may struggle with paying attention, staying organized, controlling impulses, and sitting still. While some level of these behaviors is typical in children, individuals with ADHD experience them to a degree that significantly impacts their lives. ADHD is believed to result from a combination of genetic, environmental, and neurological factors. Although there is no cure, various treatments, including medication, therapy, and lifestyle adjustments, can help manage symptoms and improve overall quality of life.",
+        "ADHD, or Attention Deficit Hyperactivity Disorder, is a neurodevelopmental condition characterized by persistent patterns of inattention, hyperactivity, and impulsivity that interfere with daily functioning. There are three main subtypes: predominantly inattentive, predominantly hyperactive-impulsive, and combined presentation. Symptoms often emerge in childhood and can persist into adulthood. Individuals with ADHD may struggle with paying attention, staying organized, controlling impulses, and regulating their activity levels. While some degree of these behaviors is normal, those with ADHD experience them to a degree that significantly impacts their lives. Though there is no cure, treatments like medication, therapy, and lifestyle adjustments can help manage symptoms and improve overall quality of life.",
+        "ADHD is a complex neurodevelopmental disorder characterized by symptoms such as inattention, hyperactivity, and impulsivity. It's essential to remember that having occasional difficulty with attention or impulsivity doesn't necessarily mean you have ADHD. The diagnosis should be made by a qualified healthcare professional, such as a psychiatrist or psychologist, based on a comprehensive evaluation of your symptoms, medical history, and any relevant information from family members or other sources."
+      ]
+    },
+    {
+      "tag": "diagnosis",
+      "patterns": [
+        "Do I have ADHD?",
+        "Am I showing signs of ADHD?",
+        "Could I be diagnosed with ADHD?",
+        "How do I know if I have ADHD?",
+        "Am I experiencing symptoms of ADHD?"
+      ],
+      "responses": [
+        "While I'm not a substitute for professional diagnosis, I can help you understand common symptoms of ADHD. Would you like to know more?",
+        "It's essential to consult with a healthcare professional for an accurate diagnosis. However, I can provide information on common symptoms of ADHD. Would you like to learn more?",
+        "Determining if you have ADHD requires a comprehensive evaluation by a healthcare professional. However, I can offer information on typical symptoms. Shall we proceed?",
+        "I can't diagnose medical conditions, including ADHD. Only qualified healthcare professionals, such as doctors or psychologists, can diagnose ADHD through a comprehensive evaluation that may include a review of your medical history, symptoms, and possibly psychological testing. If you have concerns about ADHD or any other medical condition, it's best to consult with a healthcare professional for an accurate assessment and appropriate guidance. They can provide you with personalized support and treatment options based on your individual needs."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "I need support",
+        "Can you support me?",
+        "I could use some assistance"
+      ],
+      "responses": [
+        "Support for ADHD extends involves a multifaceted approach tailored to individual needs. This includes therapeutic interventions like cognitive-behavioral therapy (CBT) to develop coping strategies and address co-occurring conditions. Medication management, overseen by healthcare professionals, can offer symptom relief. Educational support, such as accommodations in school settings and individualized education plans (IEPs), assists children in navigating academic challenges. Parental guidance and family therapy provide essential support systems. Engaging with support groups and communities offers validation and practical advice. Lifestyle adjustments like regular exercise, adequate sleep, and stress management techniques complement formal interventions. Environmental modifications and executive functioning coaching aid in optimizing daily functioning. Workplace accommodations ensure adults can thrive professionally. Through this comprehensive approach, individuals with ADHD can develop resilience, manage symptoms effectively, and improve their overall quality of life.",
+        "Support for ADHD encompasses a comprehensive array of resources and strategies tailored to individual needs. Therapy and counseling offer crucial guidance, equipping individuals with coping mechanisms and addressing any concurrent conditions like anxiety or depression. Medication management, overseen by healthcare professionals, can significantly alleviate symptoms. In educational settings, accommodations such as extended test times or individualized education plans support academic success. Parental involvement and family therapy foster understanding and effective management at home. Support groups and communities provide invaluable peer support and practical advice. Lifestyle adjustments, environmental modifications, and executive functioning coaching enhance daily functioning. Workplace accommodations facilitate productivity for adults with ADHD. Ultimately, this multifaceted approach, personalized to each individual, fosters holistic support, resilience, and improved quality of life for those navigating ADHD."
+      ]
+    },
+    {
+      "tag": "Android_App",
+      "patterns": [
+        "Android Apps to support ADHD",
+        "ADHD support apps?",
+        "What are some ADHD support apps?"
+      ],
+      "responses": [
+        "There are several Android apps designed to support individuals with ADHD by providing tools for organization, time management, focus, and productivity. Todoist helps users organize tasks, set reminders, and prioritize activities, while Forest encourages focus by growing virtual trees that die if users leave the app. Trello aids in project management by allowing users to create boards, lists, and cards to organize tasks and track progress, and Evernote is a versatile note-taking app for capturing ideas, to-do lists, and important information. MyNoise offers customizable background noise options to aid concentration, while Brain Focus Productivity Timer uses the Pomodoro Technique to improve productivity. MindMeister helps visualize thoughts and plans through mind mapping, and Focus@Will provides personalized music tracks to enhance focus. Wunderlist is a simple to-do list app for managing tasks, and ClearFocus utilizes the Pomodoro Technique for focus and productivity. These apps can complement other strategies recommended by healthcare professionals for managing ADHD effectively.",
+        "For individuals with ADHD, Android apps can be invaluable tools for improving organization, time management, focus, and productivity. Todoist assists in task management by organizing activities, setting reminders, and prioritizing tasks. Forest encourages focus by discouraging phone use through virtual tree growth. Trello facilitates project management and collaboration through customizable boards and lists. Evernote aids in capturing ideas, creating to-do lists, and organizing notes across devices. MyNoise provides customizable background noise options to enhance concentration. Brain Focus Productivity Timer utilizes the Pomodoro Technique for improved productivity. MindMeister aids in visualizing thoughts and plans through mind mapping. Focus@Will offers personalized music tracks to enhance focus and productivity. Wunderlist assists in task organization and collaboration with others through to-do lists. ClearFocus, similar to Brain Focus Productivity Timer, utilizes the Pomodoro Technique to improve focus and productivity with customizable work intervals and breaks. These apps, when used alongside other recommended strategies, can significantly support individuals with ADHD in managing their daily lives more effectively.",
+        "There are several Android apps specifically designed to support individuals with ADHD in various aspects of their lives. Todoist helps with task management and prioritization, while Forest encourages focus by growing virtual trees when users stay off their phones. Trello is excellent for project organization and collaboration, and Evernote aids in note-taking and idea organization. MyNoise offers customizable background noise to block distractions, while Brain Focus Productivity Timer uses the Pomodoro Technique to enhance productivity. MindMeister assists in visualizing thoughts and plans through mind mapping, and Focus@Will provides personalized music tracks for improved concentration. Wunderlist simplifies to-do list management and collaboration, while ClearFocus, like Brain Focus Productivity Timer, utilizes the Pomodoro Technique to optimize focus and productivity. These apps offer valuable support but should be complemented with other strategies and techniques recommended by healthcare professionals for comprehensive ADHD management."
+      ]
+    },
+    {
+      "tag": "task_management",
+      "patterns": [
+        "I'm struggling with managing tasks",
+        "How can I improve my productivity?",
+        "Help me organize my tasks"
+      ],
+      "responses": [
+        "Task management can be challenging with ADHD. Let's explore strategies to help you stay organized and focused.",
+        "Let's work on strategies to break tasks into manageable steps and prioritize effectively."
+      ]
+    },
+    {
+      "tag": "add_task",
+      "patterns": [
+        "Add a task",
+        "Create a task",
+        "New task",
+        "I need to add a task"
+      ],
+      "responses": [
+        "Sure, what is the task?",
+        "What do you need to add?",
+        "Please provide the task details."
+      ]
+    },
+    {
+      "tag": "view_tasks",
+      "patterns": [
+        "Show my tasks",
+        "What are my tasks?",
+        "List my tasks"
+      ],
+      "responses": [
+        "Here are your tasks:",
+        "You have the following tasks:"
+      ]
+    }
+  ]
+}
